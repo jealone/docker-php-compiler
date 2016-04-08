@@ -12,6 +12,8 @@ RUN apt-get install -y \
     libtool\
     git \
     vim \
+    gdb \
+    valgrind \
     wget
 
 WORKDIR /usr/local/src
